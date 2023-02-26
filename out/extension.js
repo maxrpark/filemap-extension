@@ -5,7 +5,6 @@ const vscode = require("vscode");
 const fs = require("fs");
 const path = require("path");
 function activate(context) {
-    console.log("Your extension is now active!");
     let disposable = vscode.commands.registerCommand("extension.generateReadme", () => {
         const workspaceFolder = vscode.workspace.workspaceFolders?.[0]; // Get the first workspace folder
         if (!workspaceFolder) {

@@ -29,4 +29,17 @@ Once you have made your selections, click the "Generate README" button.
 The README file will be generated in the root directory of your project.
 
 Note that this extension only works with projects that have a valid directory structure. If your project does not have a valid directory structure, the generated README file may not be accurate.
-# filemap-extension
+
+## Commands
+
+Open the Command Palette by pressing Ctrl+Shift+P (Windows, Linux) or Cmd+Shift+P (macOS).
+
+Search for the "Generate README" command and select it.
+
+## Comments
+
+Write a comment in the file starting with "file description:" and this comment will show after the link in the README.md file
+
+```js
+// file description: This file is about Home page
+```

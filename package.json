@@ -4,6 +4,7 @@
     "description": "Create a markdown Directory documentation",
     "version": "0.0.1",
     "publisher": "MaxCode",
+    "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.75.0"
     },
@@ -79,7 +80,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/maxrpark/gsap-snippets-vsc-extension.git"
+        "url": "https://github.com/maxrpark/filemap-extension"
     },
     "homepage": "https://github.com/maxrpark/filemap-extension/blob/main/README.md"
 }
