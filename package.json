@@ -1,0 +1,85 @@
+{
+    "name": "filemap",
+    "displayName": "fileMap",
+    "description": "Create a markdown Directory documentation",
+    "version": "0.0.1",
+    "publisher": "MaxCode",
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Code Linters",
+        "Source Control"
+    ],
+    "keywords": [
+        "project",
+        "directory",
+        "structure",
+        "visualization",
+        "markdown",
+        "documentation",
+        "tree",
+        "diagram",
+        "flowchart",
+        "extension"
+    ],
+    "activationEvents": [
+        "onCommand:extension.generateReadme"
+    ],
+    "main": "./out/extension.js",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "contributes": {
+        "commands": [
+            {
+                "command": "filemap.helloWorld",
+                "title": "Hello World"
+            },
+            {
+                "command": "extension.generateReadme",
+                "title": "Generate Readme"
+            }
+        ]
+    },
+    "configuration": {
+        "type": "object",
+        "properties": {
+            "generateReadme.includeNodeModules": {
+                "type": "boolean",
+                "default": false,
+                "description": "Include the node_modules folder in the generated README"
+            },
+            "generateReadme.includeHiddenFiles": {
+                "type": "boolean",
+                "default": false,
+                "description": "Include hidden files in the generated README"
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile && npm run lint",
+        "lint": "eslint src --ext ts",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.75.0",
+        "@types/glob": "^8.1.0",
+        "@types/mocha": "^10.0.1",
+        "@types/node": "16.x",
+        "@typescript-eslint/eslint-plugin": "^5.53.0",
+        "@typescript-eslint/parser": "^5.53.0",
+        "eslint": "^8.34.0",
+        "glob": "^8.1.0",
+        "mocha": "^10.2.0",
+        "typescript": "^4.9.5",
+        "@vscode/test-electron": "^2.2.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maxrpark/gsap-snippets-vsc-extension.git"
+    },
+    "homepage": "https://github.com/maxrpark/filemap-extension/blob/main/README.md"
+}
