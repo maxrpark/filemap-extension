@@ -3,6 +3,8 @@ import * as fs from "fs";
 import * as path from "path";
 
 export function activate(context: vscode.ExtensionContext) {
+    console.log("Your extension is now active!");
+
     let disposable = vscode.commands.registerCommand(
         "extension.generateReadme",
         () => {
