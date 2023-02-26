@@ -1,6 +1,10 @@
 # FileMap
 
-This README.md file was generated with the help of ChatGPT, an AI language model developed by OpenAI. It provides an overview of the contents of the project and can be a useful reference for developers working on the project.
+![Alt Text](images/extension-video.gif)
+
+Open the Command Palette by pressing Ctrl+Shift+P (Windows, Linux) or Cmd+Shift+P (macOS).
+
+Search for the "Generate README" command and select it.
 
 ## About the extension
 
@@ -43,3 +47,5 @@ Write a comment in the file starting with "file description:" and this comment w
 ```js
 // file description: This file is about Home page
 ```
+
+This README.md file was generated with the help of ChatGPT, an AI language model developed by OpenAI. It provides an overview of the contents of the project and can be a useful reference for developers working on the project.
