@@ -9,9 +9,7 @@
         "vscode": "^1.75.0"
     },
     "categories": [
-        "Programming Languages",
-        "Code Linters",
-        "Source Control"
+        "Programming Languages"
     ],
     "keywords": [
         "project",
